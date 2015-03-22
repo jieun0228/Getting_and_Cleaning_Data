@@ -1,5 +1,3 @@
- variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
-
 ## Datasets
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
@@ -13,7 +11,7 @@
 - subject - The participant ("subject") ID
 - activity - The label of the activity performed when the corresponding measurements were taken
 - feature - accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ
-- 
+
 ## Extracted features
 -tBodyAcc-mean()-X (column 1)
 -tBodyAcc-mean()-Y (column 2)
