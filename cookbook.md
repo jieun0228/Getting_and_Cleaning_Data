@@ -1,6 +1,7 @@
  variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md.
  
- ## The dataset includes the following files:
+1. DataSets
+## The dataset includes the following files:
 - 'features_info.txt': Shows information about the variables used on the feature vector.
 - 'features.txt': List of all features.
 - 'activity_labels.txt': Links the class labels with their activity name.
