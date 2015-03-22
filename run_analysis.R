@@ -51,7 +51,6 @@ ADS <- cbind(X, dataY, subject)
 #independent tidy data set with the average of each variable for each activity and each subject.
 
 tidy_ads <- ddply(ADS, .(subject, activity), function(x) colMeans(x[,1:66]))
-write.table(tidy_ads, "tidy_dataset.txt")
+write.table(tidy_ads, "tidy_dataset.txt", row.name=FALSE)
 
 result <- read.table("tidy_dataset.txt")
-
